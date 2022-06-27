@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://Myblog.github.io.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jun 2022 16:10:54 +0800</lastBuildDate><atom:link href="https://Myblog.github.io.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://Myblog.github.io.github.io/post/blog/</link>
+      <pubDate>Mon, 27 Jun 2022 16:10:54 +0800</pubDate>
+      
+      <guid>https://Myblog.github.io.github.io/post/blog/</guid>
+      <description>This is Yang Xiangyun&amp;rsquo;s first blog test. 我在使用开源软件建立并托管博客是遇到的问题有以下几点： (1) 配置hugo的环境变量 错误方法：当我配置环境变量时，直接在系统变量里新建一个变量名&amp;quot;hugo&amp;quot;，然后变量值——浏览文件，找到hugo.exe。 正确方法：在系统变量里双击Path，点击“新建”——“浏览”，找到hugo.exe (2)	创建个人博客文件夹 出现的错误：我想要将博客创建在D盘，但是当我打开cmd命令行，hugo new site myblog时，myblog自动生成在C盘 纠正方法：先打开cmd命令行，通过输入“D:”，来打开D盘，再打开到当前文件夹，再hugo newsite myblog。 (3) SSL certificate problem: 出现的问题：unable to get local issuer certificate 解决的方法：打开cmd命令行，输入git config &amp;ndash;system http.sslverify false</description>
+    </item>
+    
+  </channel>
+</rss>
